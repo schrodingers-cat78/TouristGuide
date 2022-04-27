@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/routehome"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="#0080ff"
+
+        android:textColor="#f3f6ff"
+        android:textStyle="bold"
+        android:text="Home" />
+
+    <TextView
+        android:id="@+id/tv_distance_time"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/routehome"
+        android:layout_alignParentLeft="true"
+        android:text="Click source and destination to find transport info"
+        android:textColor="#0080ff" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        android:layout_below="@+id/tv_distance_time"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>

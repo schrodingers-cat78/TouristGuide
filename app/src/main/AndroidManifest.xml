@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.copy1"
+    android:versionCode="1"
+    android:versionName="1.0"
+    >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-permission
+        android:name="com.example.travelguideapp.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <permission
+        android:name="com.example.travelguideapp.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission
+        android:name="com.example.travelguideapp.permission.MAPS_RECEIVE" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission
+        android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity
+            android:name="com.example.copy1.MainActivity"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Phrase"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Phrase" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hotelpage"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.hotelpage" />
+
+
+                <category android:name="android.intent.category.default" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Hotelpage1"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.hotelpage1" />
+
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Hotelpage2"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.hotelpage2" />
+
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Resturantphrase"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Restaurantphrase" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+
+
+        <activity
+            android:name=".Resturantphrase2"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Restaurantphrase2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Resturantphrase3"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Restaurantphrase3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Bus"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Bus" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Route"
+            android:label="@string/app_name"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.Route" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDrkuo1BpPjxwO7qCRHOwi1J6gqujl_-D4"
+            />
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+    </application>
+
+</manifest>

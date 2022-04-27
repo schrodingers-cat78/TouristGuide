@@ -1,0 +1,284 @@
+<ScrollView   xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/hoteltextView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:gravity="center"
+            android:text="Booking the Hotel"
+            android:background="#0080ff"
+            android:textColor="#f3f6ff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/hoteltextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/hoteltextView1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:text="Hotel Manager: Can I help you?"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00217a" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hoteltextView3"
+                    android:layout_width="260dp"
+
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="Translation: Aapko sahaita chahiye?"
+                android:textColor="#eb3c46" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/hoteltextView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="Traveller: I would like a room for tonight."
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#00217a" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hoteltextView5"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Translation:Mujhe ek raat ke liye room chahiye"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#eb3c46" />
+
+            </LinearLayout>
+
+            <TextView
+
+            android:id="@+id/hoteltextView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="Hotel:  What kind of room would you like?"
+            android:textColor="#00217a" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hoteltextView7"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Translation: Aapko kaunsa type ka room chahiye ?"
+                    android:textColor="#eb3c46" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/hoteltextView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="Traveller: I’d like a single room, please"
+                android:textColor="#00217a" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hoteltextView9"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Translation: Mujhe ek single room chahiye"
+
+                android:textColor="#eb3c46" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/hoteltextView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginLeft="15dp"
+                android:text="Hotel: Ok, single room is available here."
+                android:textColor="#00217a" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hoteltextView16"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Translation: Ok, ek single room khali hai."
+                    android:textColor="#eb3c46" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hoteltextView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+
+            android:layout_marginLeft="15dp"
+            android:text="Traveller: How much for the single room?"
+            android:textColor="#00217a" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="Translation: Single room ke liye kitna hai?"
+                    android:textColor="#eb3c46" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/hoteltextView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:text="Hotel: 5000 taka including tax."
+                android:textColor="#00217a" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#eb3c46"
+                    android:text="Translation: 5000 Rupees hai, including tax" />
+
+                android:background="#0080ff"
+                android:layout_marginLeft="10dp"
+                android:src="@android:drawable/ic_lock_silent_mode_off" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/hoteltextView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"
+                android:text="Traveller: OK, I’ll take a room for tonight."
+                android:textColor="#00217a" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/hoteltextView15"
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#eb3c46"
+                    android:text="Translation: Theek hai, mai room le lunga.."
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="150dp" >
+
+            <ImageButton
+                android:id="@+id/hotelbackBt"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:background="#0080ff"
+
+            android:src="@android:drawable/ic_media_previous" />
+
+            <ImageButton
+                android:id="@+id/hotelnextBt"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:background="#0080ff"
+                android:src="@android:drawable/ic_media_next" />
+
+            <Button
+                android:id="@+id/hotelhomeBt"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="42dp"
+                android:layout_toRightOf="@+id/hotelbackBt"
+                android:background="#0080ff"
+                android:textColor="#f3f6ff"
+                android:textStyle="bold"
+                android:text="Home" />
+
+            <Button
+                android:id="@+id/hotelphraseBt"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="38dp"
+                android:layout_toLeftOf="@+id/hotelnextBt"
+                android:textStyle="bold"
+                android:background="#0080ff"
+                android:textColor="#f3f6ff"
+                android:text="Phrases" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

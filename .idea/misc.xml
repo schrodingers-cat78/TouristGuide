@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/bus.xml" value="0.198" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/color.xml" value="0.253" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/ic_launcher.xml" value="0.2265" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2265" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/ordering_food.xml" value="0.124" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/reservation.xml" value="0.198" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/restaurantview.xml" value="0.198" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/round.xml" value="0.198" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/drawable/roundphrases.xml" value="0.12" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/bus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/hotelpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/hotelpage1.xml" value="0.2" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/hotelpage2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/phrases.xml" value="0.264" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/resturantphrase.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/resturantphrase2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/resturantphrase3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/resturantphrases.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/layout/route.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/mipmap-anydpi-v26/ic_launcher1.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/Tourist_Guide_Main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/bus.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/color.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/ic_launcher.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/ic_logo_background.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/ordering_food.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/reservation.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/restaurantview.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/drawable/round.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/bus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/hotelpage.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/hotelpage2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/phrases.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/resturantphrase.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/resturantphrase2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/resturantphrase3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/layout/route.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/menu/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/mipmap-anydpi-v26/ic_logo.xml" value="0.2355" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/copy1/app/src/main/res/mipmap-anydpi-v26/ic_logo_round.xml" value="0.2355" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

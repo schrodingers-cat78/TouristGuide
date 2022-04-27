@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+        android:background="@drawable/color"
+        tools:context="com.example.Tourist_Guide_Main.MainActivity"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-144dp">
+
+        <Button
+            android:id="@+id/phrasebutton3"
+            android:layout_width="133dp"
+            android:layout_height="60dp"
+            android:layout_alignStart="@+id/phrasebutton"
+            android:layout_alignTop="@+id/phrasebutton"
+            android:layout_alignEnd="@+id/phrasebutton"
+            android:layout_alignBottom="@+id/phrasebutton"
+            android:layout_marginStart="56dp"
+            android:layout_marginTop="398dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="-391dp"
+            android:background="#0080ff"
+            android:text="Home"
+            android:textColor="#f3f6ff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="411dp"
+            tools:layout_editor_absoluteY="571dp" />
+
+        <Button
+            android:id="@+id/phrasebutton"
+            android:layout_width="244dp"
+            android:layout_height="66dp"
+            android:layout_alignLeft="@+id/phrasebutton4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginRight="179dp"
+            android:layout_marginBottom="521dp"
+            android:background="@drawable/round"
+            android:text="@string/resturant"
+            android:textColor="#00FFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/phrasebutton1"
+            android:layout_width="244dp"
+            android:layout_height="66dp"
+            android:layout_alignLeft="@+id/phrasebutton4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="86dp"
+            android:layout_marginRight="179dp"
+            android:layout_marginBottom="395dp"
+            android:background="@drawable/round"
+            android:text="@string/Bus"
+            android:textColor="#00FFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnknownId" />
+
+        <Button
+            android:id="@+id/phrasebutton2"
+            android:layout_width="244dp"
+            android:layout_height="66dp"
+            android:layout_alignLeft="@+id/phrasebutton4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginEnd="83dp"
+            android:layout_marginRight="179dp"
+            android:layout_marginBottom="261dp"
+            android:background="@drawable/round"
+            android:text="@string/Hotel"
+            android:textColor="#00FFFF"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UnknownId" />
+
+        <TextView
+            android:id="@+id/phrasetextView1"
+            android:layout_width="410dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="#0080ff"
+            android:gravity="center"
+            android:text="Phrases"
+            android:textColor="#f3f6ff"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
